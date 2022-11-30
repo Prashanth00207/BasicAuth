@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\bin\Debug\net5.0\BasicAuthSample.Repository.deps.json
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\bin\Debug\net5.0\BasicAuthSample.Repository.runtimeconfig.json
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\bin\Debug\net5.0\BasicAuthSample.Repository.runtimeconfig.dev.json
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\bin\Debug\net5.0\BasicAuthSample.Repository.dll
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\bin\Debug\net5.0\ref\BasicAuthSample.Repository.dll
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\bin\Debug\net5.0\BasicAuthSample.Repository.pdb
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\BasicAuthSample.Repository.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\BasicAuthSample.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\BasicAuthSample.Repository.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\BasicAuthSample.Repository.AssemblyInfo.cs
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\BasicAuthSample.Repository.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\BasicAuthSample.Repository.dll
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\ref\BasicAuthSample.Repository.dll
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\BasicAuthSample.Repository.pdb
+C:\Users\admin\Desktop\Prashanth\BasicAuthSample\BasicAuthSample.Repository\obj\Debug\net5.0\BasicAuthSample.Repository.genruntimeconfig.cache
