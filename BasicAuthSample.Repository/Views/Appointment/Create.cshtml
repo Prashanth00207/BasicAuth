@@ -1,0 +1,34 @@
+﻿@using BasicAuthSample.Repository.Models;
+
+@{ List<Login> Patients = ViewBag.Patients;
+    List<Login> Doctors = ViewBag.Doctors;
+}
+<div>
+    <h1>Appointment Registration</h1>
+    <br />
+    <form action="Create" method="post">
+        <br />
+        <label>Patient:</label>
+        <select name="UserId">
+            @foreach (Login Patient in Patients)
+            {
+                <option value="@Patient.Id">@Patient.FirstName</option>
+            }
+
+        </select>
+        <br />
+        <label>DoctorId:</label>
+        <select name="DoctorId">
+            @foreach (Login doctor in Doctors)
+            {
+                <option value="@doctor.Id">@doctor.FirstName</option>
+            }
+
+        </select>
+        <br />
+        <label>Appointment Date:</label>
+        <input type="datetime-local" name="appointmentdate" />
+        <br />
+        <input type="submit" name="btnsubmit" value="Create" />
+    </form>
+</div>

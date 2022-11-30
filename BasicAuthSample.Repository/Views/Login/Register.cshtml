@@ -1,0 +1,30 @@
+﻿<div>
+    <h1>User Registration</h1>
+    <br />
+    <form action="Login/register" method="post">
+        <label>FirstName:</label>
+        <input type="text" name="FirstName" />
+        <br />
+        <label>LastName:</label>
+        <input type="text" name="LasttName" />
+        <br />
+        <label>City:</label>
+        <input type="text" name="City" />
+        <br />
+        <label>User Type:</label>
+        <select name="UserTypeId">
+            <option value="1">Patient</option>
+            <option value="2">Doctor</option>
+            <option value="3">Staff</option>
+
+        </select>
+        <br />
+        <label>UserName:</label>
+        <input type="text" name="UserName" />
+        <br />
+        <label>Password:</label>
+        <input type="password" name="Password" />
+        <br />
+        <input type="submit" name="Register" value="Register" />
+    </form>
+</div>

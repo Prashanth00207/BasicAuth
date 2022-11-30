@@ -1,0 +1,55 @@
+﻿@model List<BasicAuthSample.Repository.Models.Appointment>
+@using BasicAuthSample.Repository.Models
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <style>
+        table, th, td {
+            border: 1px solid;
+        }
+    </style>
+</head>
+<p>
+    <h1>Appointment List</h1>
+    <h3>@User.Identity.Name</h3>
+</p>
+<div>
+    <a asp-action="Create"> <input type="button" value="Create New" class="btn-primary" /></a>
+    <br />
+</div>
+<div>
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Date</th>
+            <th>PatientName</th>
+            <th>DoctorName</th>
+            <th>CreatedBy</th>
+            <th>CreatedDate</th>
+            <th>ModifiedBy</th>
+            <th>ModifiedDate</th>
+        </tr>
+
+        @foreach (Appointment item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.AppointmentDate</td>
+                <td>@item.User.FirstName</td>
+                <td>@item.Doctor.FirstName</td>
+                <td>@item.CreatedByNavigation.FirstName</td>
+                <td>@item.CreatedDate</td>
+                <td>@item.ModifiedByNavigation.FirstName</td>
+                <td>@item.ModifiedDate</td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+
+                </td>
+            </tr>
+        }
+
+    </table>
+</div>
+</html>
